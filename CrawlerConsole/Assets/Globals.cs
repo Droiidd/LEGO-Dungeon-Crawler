@@ -37,9 +37,9 @@ public class Globals
         return baseRace;
     }
 
-    public static PlayerClass GetAndCheckPlayerClass()
+    public static ClassType GetAndCheckPlayerClass()
     {
-        PlayerClass baseClass = PlayerClass.Warrior;
+        ClassType baseClassType = ClassType.Warrior;
         var invalidClass = true;
 
         while (invalidClass)
@@ -49,11 +49,11 @@ public class Globals
             var playerClass = CheckPlayerStrAgainstClassStr(inputClass);
             if(playerClass.Length > 0)
             {
-                baseClass = GetClassFromStr(playerClass);
+                baseClassType = GetClassFromStr(playerClass);
                 invalidClass = false;
             }
         }
-        return baseClass;
+        return baseClassType;
     }
 
     private static string CheckPlayerStrAgainstRaceStr(string playerRace)
@@ -69,24 +69,24 @@ public class Globals
         return baseRace;
     }
 
-    private static PlayerClass GetClassFromStr(string playerClass)
+    private static ClassType GetClassFromStr(string playerClass)
     {
         switch (playerClass.ToLower())
         {
             case "monk":
-                return PlayerClass.Monk;
+                return ClassType.Monk;
             case "priest":
-                return PlayerClass.Priest;
+                return ClassType.Priest;
             case "wizard":
-                return PlayerClass.Wizard;
+                return ClassType.Wizard;
             case "hunter":
-                return PlayerClass.Hunter;
+                return ClassType.Hunter;
             case "rogue":
-                return PlayerClass.Rogue;
+                return ClassType.Rogue;
             case "berserker":
-                return PlayerClass.Berserker;
+                return ClassType.Berserker;
             default: case "warrior":
-                return PlayerClass.Warrior;
+                return ClassType.Warrior;
         }
     }
 
@@ -112,7 +112,7 @@ public class Globals
     private static string CheckPlayerStrAgainstClassStr(string playerClass)
     {
         string baseStr = "";
-        foreach (var pClass in Enum.GetNames(typeof(PlayerClass)))
+        foreach (var pClass in Enum.GetNames(typeof(ClassType)))
         {
             if (EqualsIgnoreCase(pClass, playerClass))
             {
@@ -127,27 +127,27 @@ public class Globals
         return (str1.ToLower().Equals(str2.ToLower())) ? true :false;
     }
 
-    public static int CalculateLuckStat(Race race, PlayerClass playerClass, int baseLuck)
+    public static int CalculateLuckStat(Race race, ClassType classType, int baseLuck)
     {
-        return baseLuck + GetRaceLuckBuff(race) + GetClassLuckBuff(playerClass);
+        return baseLuck + GetRaceLuckBuff(race) + GetClassLuckBuff(classType);
     }
 
-    public static int CalculateCharismaStat(Race race, PlayerClass playerClass, int baseCharisma)
+    public static int CalculateCharismaStat(Race race, ClassType classType, int baseCharisma)
     {
-        return baseCharisma + GetClassCharismaBuff(playerClass);
+        return baseCharisma + GetClassCharismaBuff(classType);
     }
 
-    public static int CalculateStealthStat(Race race, PlayerClass playerClass, int baseStealth)
+    public static int CalculateStealthStat(Race race, ClassType classType, int baseStealth)
     {
-        return baseStealth + GetClassStealthBuff(playerClass);
+        return baseStealth + GetClassStealthBuff(classType);
     }
 
-    public static int CalculateHp(Race race, PlayerClass playerClass, int baseHp)
+    public static int CalculateHp(Race race, ClassType classType, int baseHp)
     {
         return baseHp + GetRaceHpBuff(race);
     }
 
-    public static int CalculateCp(Race race, PlayerClass playerClass, int baseCp)
+    public static int CalculateCp(Race race, ClassType classType, int baseCp)
     {
         return baseCp + GetRaceCpBuff(race);
     }
@@ -179,19 +179,19 @@ public class Globals
 
     #endregion
     #region Class Buff Calculators
-    private static int GetClassLuckBuff(PlayerClass pClass)
+    private static int GetClassLuckBuff(ClassType pClassType)
     {
-        return (pClass == PlayerClass.Wizard || pClass == PlayerClass.Hunter) ? 3 : 0;
+        return (pClassType == ClassType.Wizard || pClassType == ClassType.Hunter) ? 3 : 0;
     }
     
-    private static int GetClassStealthBuff(PlayerClass pClass)
+    private static int GetClassStealthBuff(ClassType pClassType)
     {
-        return (pClass == PlayerClass.Rogue || pClass == PlayerClass.Hunter) ? 3 : 0;
+        return (pClassType == ClassType.Rogue || pClassType == ClassType.Hunter) ? 3 : 0;
     }
     
-    private static int GetClassCharismaBuff(PlayerClass pClass)
+    private static int GetClassCharismaBuff(ClassType pClassType)
     {
-        return (pClass == PlayerClass.Wizard || pClass == PlayerClass.Warrior || pClass == PlayerClass.Priest) ? 3 : 0;
+        return (pClassType == ClassType.Wizard || pClassType == ClassType.Warrior || pClassType == ClassType.Priest) ? 3 : 0;
     }
     
     #endregion

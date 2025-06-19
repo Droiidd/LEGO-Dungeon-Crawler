@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp1.Assets;
 
-public enum PlayerClass
+public enum ClassType
 {
     Wizard,
     Warrior,
