@@ -8,26 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e5fc206-4b40-490a-a5a7-c5b16c15c023" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Dungeon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Assets/Dungeon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Assets/Globals.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Assets/Room.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Entities/Invader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Invader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Entities/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Monster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Entities/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/ConsoleApp1.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/ConsoleApp1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/ref/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/ref/CrawlerConsole.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/refint/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/refint/CrawlerConsole.dll" afterDir="false" />
@@ -119,7 +113,7 @@
       <workItem from="1750301980706" duration="240000" />
       <workItem from="1750302248154" duration="188000" />
       <workItem from="1750350846662" duration="6394000" />
-      <workItem from="1750357631133" duration="5338000" />
+      <workItem from="1750357631133" duration="8218000" />
     </task>
     <servers />
   </component>
@@ -159,13 +153,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/CrawlerConsole/Entities/Invader.cs</url>
-          <line>18</line>
+          <line>17</line>
           <properties documentPath="D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\Entities\Invader.cs" containingFunctionPresentation="Method 'CalculateHpFromLevel'">
             <startOffsets>
-              <option value="573" />
+              <option value="454" />
             </startOffsets>
             <endOffsets>
-              <option value="604" />
+              <option value="485" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />

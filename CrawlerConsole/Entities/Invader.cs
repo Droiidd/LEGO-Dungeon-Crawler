@@ -2,24 +2,39 @@
 
 public class Invader: Monster
 {
-    public Invader(MonsterType type, int level, int hp, int cp, int statScalerRoll, Room currentRoom): base(type,level,hp,cp,statScalerRoll,currentRoom)
+    public Invader(MonsterType type,int statScalerRoll, Room currentRoom): base(type,statScalerRoll,currentRoom)
     {
-        Invader.type = type;
-        Invader.level = level;
-        Invader.hp = hp;
-        Invader.cp = cp;
-        Invader.statScalerRoll = statScalerRoll;
-        Invader.currentRoom = currentRoom;
-        Invader.isAlive = true;
+        this.type = type;
+        this.statScalerRoll = statScalerRoll;
+        this.currentRoom = currentRoom;
+        this.isAlive = true;
+
+        InitStats();
     }
     
-    public virtual void CalculateHpFromLevel()
+    public override void CalculateHpFromLevel()
     {
         //Invaders hp = 30 + 4 * stat scaler
         hp = 30 + (4 * statScalerRoll);
     }
+
+    public override void CalculateLevelFromStatScaler()
+    {
+        if (statScalerRoll >= 1 && statScalerRoll <= 10)
+        {
+            level = 1;
+        }
+        else if (statScalerRoll > 10 && statScalerRoll <= 17)
+        {
+            level = 2;
+        }
+        else
+        {
+            level = 3;
+        }
+    }
     
-    public virtual void CalculateCpFromLevel()
+    public override void CalculateCpFromLevel()
     {
         switch (level)
         {

@@ -23,14 +23,16 @@ public class Game
                 dialogue += ", "+players[i].name ;
         }
         Console.WriteLine(dialogue);
-        
+        for (int i = 0; i < players.Count; i++)
+        {
+            StartMainActionPhase(players[i]);
+        }
     }
 
     private static void Init()
     {
-        InitializePlayers();
         InitializeDungeon();
-
+        InitializePlayers();
     }
 
     public static void InitializeDungeon()
@@ -45,8 +47,6 @@ public class Game
             roomCount = 20;
         }
         dungeon = new Dungeon(roomCount);
-        
-        
     }
 
     private static void InitializePlayers()
@@ -81,7 +81,7 @@ public class Game
             Console.WriteLine("\nPlayer created... Loading stats:");
             string breakStr = "\n-----------\n";
             string stats = breakStr+"Name: "+name+"\nRace: "+race+"\nClass: "+playerClass+breakStr+"HP: "+hp+"\nCP: "+cp+breakStr+"Luck: "+luck+"\nCharisma: "+charisma+"\nStealth: "+stealth+"\n";
-            Console.WriteLine(stats);;
+            //Console.WriteLine(stats);;
         }
     }
 
@@ -91,36 +91,94 @@ public class Game
         Console.WriteLine(player.name+"'s turn!\n ------------ \n Actions:");
         
         string actionMenu = "1.) Move\n2.) Rest and heal\n\nPlease choose (1 or 2)";
+        Console.WriteLine(actionMenu);
         var choice = Console.ReadLine();
         //if choice is good then
+        if (choice == "1")
+        {
+            StartMovementAction(player);
+        }
+
+        if (choice == "2")
+        {
+            //RestAndHeal
+        }
     }
 
     public void StartMovementAction(Player player)
     {
         Console.Clear();
-        Console.WriteLine("Movement Options:\n1.) Kick a new door down\n2.) Enter an unlocked room\n3.) Return to previous menu");
-        Console.WriteLine("\n\nPlease choose (1,2, or 3 to exit)");
+        string movementMenu =
+            "Movement Options:\n1.) Kick a new door down\n2.) Enter an unlocked room\n3.) Return to previous menu" +
+            "\n\nPlease choose (1,2, or 3 to exit)";
+        Console.WriteLine(movementMenu);
         var choice = Console.ReadLine();
         //if choice is good
+        if (choice == "1")
+        {
+            MovePlayerToRoom(player);
+        }
+
+        if (choice == "2")
+        {
+            
+        }
         if (choice == "3")
         {
             StartMainActionPhase(player);
         }
 
-        if (choice == "1")
+        if (choice != "1" && choice != "2" && choice != "3")
         {
-            Console.WriteLine("Please enter the number of the door you wish to knock down: ");
-            var roomNum = Console.ReadLine();
-            //verify roomNumber is an int
-            //Verify roomNumber is an existing room and is locked
-            
-            
+            // you failed!
         }
         
     }
 
-    public void KickDownDoor(Player player)
+    public void MovePlayerToRoom(Player player)
     {
+        Console.WriteLine("Please enter the number of the door you wish to knock down: ");
+        var roomNumStr = Console.ReadLine();
+        //verify roomNumber is an int
+        int roomNum = Globals.ParseStrToInt(roomNumStr);
+        //Verify roomNumber is an existing room and is locked
+        if (!(roomNum <= dungeon.totalRooms))
+        {
+            //try again!
+        }
+
+        Room room = Room.GetRoom(roomNum);
+        if (room == null)
+        {
+            // try again!
+        }
+            
+        if (room.isUnlocked)
+        {
+            //This door is unlocked, proceed anyway?
+        }
+        else
+        {
+            KickDownDoor(player,room);
+        }
+    }
+
+    public void KickDownDoor(Player player, Room room)
+    {
+        player.UpdateRoom(room);
         Console.Clear();
+        Monster monster = room.monster;
+        string dialogue = $"-------------\nYou have kicked down the door to room {room.roomNumber}!\nFrom the darkness...\nA level {monster.level} "+monster.type.ToString()+" emerges!\n\n\n";
+        Console.WriteLine(dialogue);
+        Console.WriteLine(CombatPhaseUi(player,monster));
+    }
+
+    public string CombatPhaseUi(Player player, Monster monster)
+    {
+        string d = "-----------------------------------------" +
+                   $"\n{player.name}: \t\t\t\t\t{monster.type}:" +
+                   $"\nLvl: {player.GetLevel()} \t\t\t\t\tLvl: {monster.level}" +
+                   $"\n| HP: {player.GetHP()}   | CP: {player.GetCP()}   | \t\t | HP: {monster.hp} | CP: {monster.cp} |";
+        return d;
     }
 }

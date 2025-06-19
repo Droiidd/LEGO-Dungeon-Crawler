@@ -7,6 +7,7 @@ public class Dungeon
 
     public Dungeon(int rooms)
     {
+        Console.WriteLine("Creating dungeon...");
         this.totalRooms = rooms;
         InitDungeon();
     }
@@ -15,8 +16,11 @@ public class Dungeon
     {
         for (int i = 0; i < totalRooms; i++)
         {
-            rooms.Add(new Room(i+1));
-            rooms[i].AddMonster(new Invader());
+            var room = new Room(i + 1);
+            rooms.Add(room);
+            Invader mon = new Invader(MonsterType.Invader, 11, room);
+            Console.WriteLine($"Monster stats: HP {mon.hp} | CP {mon.cp} ");
+            rooms[i].AddMonster(mon);
         }
     }
 

@@ -7,9 +7,11 @@ public class Player
     private int stealth;
     private int luck;
     private int charisma;
+    private int level;
     private Race race;
-    private ClassType _classType;
+    public ClassType _classType;
     public string name;
+    private Room currentRoom;
     private static List<Player> players = new List<Player>();
 
     public Player(string name, int cp, int hp, int stealth, int luck, int charisma, Race race, ClassType classType)
@@ -22,6 +24,8 @@ public class Player
         this.race = race;
         this._classType = classType;
         this.name = name;
+        this.currentRoom = null;
+        this.level = 1;
         players.Add(this);
     }
 
@@ -41,5 +45,24 @@ public class Player
 
         return null;
     }
-    
+
+    public void UpdateRoom(Room room)
+    {
+        this.currentRoom = room;
+    }
+
+    public int GetCP()
+    {
+        return this.cp;
+    }
+
+    public int GetHP()
+    {
+        return this.hp;
+    }
+
+    public int GetLevel()
+    {
+        return this.level;
+    }
 }

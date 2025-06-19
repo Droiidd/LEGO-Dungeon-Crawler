@@ -2,24 +2,29 @@
 
 public class Monster
 {
-    public static MonsterType type;
-    public static int level;
-    public static int hp;
-    public static int cp;
-    public static int statScalerRoll;
-    public static Room currentRoom;
-    public static bool isAlive;
+    public MonsterType type;
+    public int level;
+    public int hp;
+    public int cp;
+    public int statScalerRoll;
+    public Room currentRoom;
+    public bool isAlive;
 
-    public Monster(MonsterType type, int level, int hp, int cp, int statScalerRoll, Room currentRoom)
+    public Monster(MonsterType type, int statScalerRoll, Room currentRoom)
     {
-        Monster.type = type;
-        Monster.level = level;
-        Monster.hp = hp;
-        Monster.cp = cp;
-        Monster.statScalerRoll = statScalerRoll;
-        Monster.currentRoom = currentRoom;
+        this.type = type;
+        this.statScalerRoll = statScalerRoll;
+        this.currentRoom = currentRoom;
         isAlive = true;
     }
+
+    public void InitStats()
+    {
+        CalculateHpFromLevel();
+        CalculateLevelFromStatScaler();
+        CalculateCpFromLevel();
+    }
+    public virtual void CalculateLevelFromStatScaler() { }
     public virtual void CalculateCpFromLevel() { }
 
     public virtual void CalculateHpFromLevel() { }

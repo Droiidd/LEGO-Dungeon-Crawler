@@ -2,22 +2,35 @@
 
 public class Room
 {
-    private static int roomNumber;
-    private static bool unlocked;
-    private static bool vanquished;
-    private static Monster monster;
+    public int roomNumber;
+    public bool isUnlocked;
+    public bool isVanquished;
+    public Monster monster;
+    private static List<Room> rooms = new List<Room>();
 
     public Room(int roomNumber)
     {
-        unlocked = false;
-        vanquished = false;
-        Room.roomNumber = roomNumber;
+        this.isUnlocked = false;
+        this.isVanquished = false;
+        this.roomNumber = roomNumber;
+        rooms.Add(this);
     }
 
     public void AddMonster(Monster monster)
     {
-        Room.monster = monster;
+        this.monster = monster;
     }
-    
-    
+
+    public static Room GetRoom(int roomNumber)
+    {
+        for (int i = 0; i < rooms.Count; i++)
+        {
+            if (rooms[i].roomNumber == roomNumber)
+            {
+                return rooms[i];
+            }
+        }
+
+        return null;
+    }
 }
