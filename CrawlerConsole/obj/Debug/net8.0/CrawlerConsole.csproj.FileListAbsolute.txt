@@ -1,0 +1,14 @@
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\bin\Debug\net8.0\CrawlerConsole.exe
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\bin\Debug\net8.0\CrawlerConsole.deps.json
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\bin\Debug\net8.0\CrawlerConsole.runtimeconfig.json
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\bin\Debug\net8.0\CrawlerConsole.dll
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\bin\Debug\net8.0\CrawlerConsole.pdb
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.AssemblyInfoInputs.cache
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.AssemblyInfo.cs
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.csproj.CoreCompileInputs.cache
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.dll
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\refint\CrawlerConsole.dll
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.pdb
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.genruntimeconfig.cache
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\ref\CrawlerConsole.dll
