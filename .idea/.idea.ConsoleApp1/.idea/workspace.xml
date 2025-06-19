@@ -10,22 +10,7 @@
     <list default="true" id="9e5fc206-4b40-490a-a5a7-c5b16c15c023" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Dungeon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Assets/Dungeon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Assets/Globals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Entities/Invader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Invader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Entities/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Monster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Entities/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/ref/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/ref/CrawlerConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/refint/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/refint/CrawlerConsole.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.ConsoleApp1.executor": "Run",
-    ".NET Project.CrawlerConsole.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.ConsoleApp1.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.CrawlerConsole.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CrawlerConsole" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.exe" />
@@ -114,7 +99,7 @@
       <workItem from="1750301980706" duration="240000" />
       <workItem from="1750302248154" duration="188000" />
       <workItem from="1750350846662" duration="6394000" />
-      <workItem from="1750357631133" duration="10255000" />
+      <workItem from="1750357631133" duration="12636000" />
     </task>
     <servers />
   </component>
