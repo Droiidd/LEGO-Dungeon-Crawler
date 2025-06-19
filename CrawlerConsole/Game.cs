@@ -51,37 +51,52 @@ public class Game
 
     private static void InitializePlayers()
     {
-        Console.WriteLine("How many players are entering the dungeon?");
-        var playerCountStr = Console.ReadLine();
-
-        playerCount = Globals.ParseStrToInt(playerCountStr);
-        if (playerCount == -1)
+        while (playerCount <= 0)
         {
-            //crash out
+            Console.WriteLine("How many players are entering the dungeon?");
+            var playerCountStr = Console.ReadLine();
+
+            playerCount = Globals.ParseStrToInt(playerCountStr);
+            if (playerCount > 0)
+            {
+                break;
+            }
+            
+            Console.Clear();
+            Console.WriteLine("Incorrect input, try again");
         }
         Console.Clear();
         for (int i = 0; i < playerCount; i++)
         {
-            Console.WriteLine($"Welcome player {(i+1)}, please enter your name");
-            var name =  Console.ReadLine();
+            CreateNewPlayer(i);
+            Console.WriteLine("\nCreating new player...");
+        }
+    }
+
+    private static void CreateNewPlayer(int i)
+    {
+        Console.WriteLine($"Welcome player {(i+1)}, please enter your name");
+        var name =  Console.ReadLine();
+        var race = Globals.GetAndCheckPlayerRace();
+        var playerClass =  Globals.GetAndCheckPlayerClass();
+        //All input done
+        Console.Clear();
     
-            var race = Globals.GetAndCheckPlayerRace();
-            var playerClass =  Globals.GetAndCheckPlayerClass();
-            //All input done
-            Console.Clear();
-    
-            var luck = Globals.CalculateLuckStat(race, playerClass,7);
-            var charisma = Globals.CalculateCharismaStat(race, playerClass,10);
-            var stealth = Globals.CalculateStealthStat(race, playerClass,10);
-            var hp = Globals.CalculateHp(race, playerClass, 50);
-            var cp = Globals.CalculateCp(race, playerClass, 10);
-    
-    
-            Player player = new Player(name,cp,hp,stealth,luck,charisma,race,playerClass);
-            Console.WriteLine("\nPlayer created... Loading stats:");
-            string breakStr = "\n-----------\n";
-            string stats = breakStr+"Name: "+name+"\nRace: "+race+"\nClass: "+playerClass+breakStr+"HP: "+hp+"\nCP: "+cp+breakStr+"Luck: "+luck+"\nCharisma: "+charisma+"\nStealth: "+stealth+"\n";
-            //Console.WriteLine(stats);;
+        var luck = Globals.CalculateLuckStat(race, playerClass,7);
+        var charisma = Globals.CalculateCharismaStat(race, playerClass,10);
+        var stealth = Globals.CalculateStealthStat(race, playerClass,10);
+        var hp = Globals.CalculateHp(race, playerClass, 50);
+        var cp = Globals.CalculateCp(race, playerClass, 10);
+
+        new Player(name,cp,hp,stealth,luck,charisma,race,playerClass);
+    }
+
+    private Monster CreateNewMonster(MonsterType type, int statScaler, Room room)
+    {
+        switch (type)
+        {
+            default: case MonsterType.Invader:
+                return new Invader(type,statScaler,room);
         }
     }
 
@@ -167,9 +182,27 @@ public class Game
     {
         player.UpdateRoom(room);
         Console.Clear();
-        Monster monster = room.monster;
-        string dialogue = $"-------------\nYou have kicked down the door to room {room.roomNumber}!\nFrom the darkness...\nA level {monster.level} "+monster.type.ToString()+" emerges!\n\n\n";
+        
+        string dialogue = $"-------------\nYou have kicked down the door to room {room.roomNumber}!\nRoll a d20 for your mob type";
         Console.WriteLine(dialogue);
+        
+        //check bad rolls: \/\/\/\/
+        Console.WriteLine("\nRolled number:");
+        var rollStr = Console.ReadLine();
+        Console.WriteLine("\n\nRoll a second d20 for your stat scaler roll\nRolled number: ");
+        var statStr = Console.ReadLine();
+        
+        int roll = Globals.ParseStrToInt(rollStr);
+        int statScaler = Globals.ParseStrToInt(statStr);
+        
+        MonsterType type = Globals.GetMonsterTypeFromRoll(roll);
+        Monster summonedMonster = CreateNewMonster(type, statScaler, room);
+        
+        room.monster = summonedMonster;
+        Monster monster = room.monster;
+            
+        string monsterIntro = $"\nFrom the darkness...\nA level {monster.level} "+monster.type.ToString()+" emerges!\n\n\n";
+        Console.WriteLine(dialogue+monsterIntro);
         Console.WriteLine(CombatPhaseUi(player,monster));
     }
 
@@ -177,8 +210,8 @@ public class Game
     {
         string d = "-----------------------------------------" +
                    $"\n{player.name}: \t\t\t\t\t{monster.type}:" +
-                   $"\nLvl: {player.GetLevel()} \t\t\t\t\tLvl: {monster.level}" +
-                   $"\n| HP: {player.GetHP()}   | CP: {player.GetCP()}   | \t\t | HP: {monster.hp} | CP: {monster.cp} |";
+                   $"\nLvl: {player.level} \t\t\t\t\tLvl: {monster.level}" +
+                   $"\n| HP: {player.hp} | CP: {player.cp} |\t\t\t| HP: {monster.hp} | CP: {monster.cp} |";
         return d;
     }
 }

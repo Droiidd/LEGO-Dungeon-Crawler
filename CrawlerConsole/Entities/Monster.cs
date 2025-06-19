@@ -24,7 +24,22 @@ public class Monster
         CalculateLevelFromStatScaler();
         CalculateCpFromLevel();
     }
-    public virtual void CalculateLevelFromStatScaler() { }
+
+    public void CalculateLevelFromStatScaler()
+    {
+        if (statScalerRoll >= 1 && statScalerRoll <= 10)
+        {
+            level = 1;
+        }
+        else if (statScalerRoll > 10 && statScalerRoll <= 17)
+        {
+            level = 2;
+        }
+        else
+        {
+            level = 3;
+        }
+    }
     public virtual void CalculateCpFromLevel() { }
 
     public virtual void CalculateHpFromLevel() { }

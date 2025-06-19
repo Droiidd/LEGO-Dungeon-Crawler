@@ -2,13 +2,13 @@
 
 public class Player
 {
-    private int cp;
-    private int hp;
-    private int stealth;
-    private int luck;
-    private int charisma;
-    private int level;
-    private Race race;
+    public int cp;
+    public int hp;
+    public int stealth;
+    public int luck;
+    public int charisma;
+    public int level;
+    public Race race;
     public ClassType _classType;
     public string name;
     private Room currentRoom;
@@ -49,20 +49,5 @@ public class Player
     public void UpdateRoom(Room room)
     {
         this.currentRoom = room;
-    }
-
-    public int GetCP()
-    {
-        return this.cp;
-    }
-
-    public int GetHP()
-    {
-        return this.hp;
-    }
-
-    public int GetLevel()
-    {
-        return this.level;
     }
 }

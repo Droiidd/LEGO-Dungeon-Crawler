@@ -108,6 +108,35 @@ public class Globals
                 return Race.Human;
         }
     }
+
+    public static MonsterType GetMonsterTypeFromStr(string monsterType)
+    {
+        return MonsterType.Invader;
+    }
+
+    public static MonsterType GetMonsterTypeFromRoll(int roll)
+    {
+        if (roll <= 6)
+        {
+            return MonsterType.Invader;
+        }
+        else if (roll <= 11)
+        {
+            return MonsterType.Beast;
+        }
+        else if (roll <= 15)
+        {
+            return MonsterType.Horde;
+        }
+        else if (roll <= 18)
+        {
+            return MonsterType.Mount;
+        }
+        else
+        {
+            return MonsterType.Apostle;
+        }
+    }
     
     private static string CheckPlayerStrAgainstClassStr(string playerClass)
     {

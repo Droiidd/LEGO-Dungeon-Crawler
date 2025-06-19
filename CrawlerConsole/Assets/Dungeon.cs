@@ -18,9 +18,7 @@ public class Dungeon
         {
             var room = new Room(i + 1);
             rooms.Add(room);
-            Invader mon = new Invader(MonsterType.Invader, 11, room);
-            Console.WriteLine($"Monster stats: HP {mon.hp} | CP {mon.cp} ");
-            rooms[i].AddMonster(mon);
+            rooms[i].AddMonster(new Invader(MonsterType.Invader, 11, room));
         }
     }
 
