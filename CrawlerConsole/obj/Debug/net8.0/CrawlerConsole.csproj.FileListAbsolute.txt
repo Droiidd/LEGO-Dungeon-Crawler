@@ -12,3 +12,4 @@ D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\refint\CrawlerConsol
 D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.pdb
 D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.genruntimeconfig.cache
 D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\ref\CrawlerConsole.dll
+D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\obj\Debug\net8.0\CrawlerConsole.sourcelink.json

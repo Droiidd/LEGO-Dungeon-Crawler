@@ -4,15 +4,15 @@ namespace ConsoleApp1.Assets;
 
 public class Globals
 {
-    public static int CheckPlayerCountNumber(string playerNumber)
+    public static int ParseStrToInt(string str)
     {
         try{
-            int result = Int32.Parse(playerNumber);
+            int result = Int32.Parse(str);
             return result;
         }
         catch (FormatException)
         {
-            Console.WriteLine($"Unable to parse '{playerNumber}'");
+            Console.WriteLine($"Unable to parse '{str}'");
         }
 
         return -1;

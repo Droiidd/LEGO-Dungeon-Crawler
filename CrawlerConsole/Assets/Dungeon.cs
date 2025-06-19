@@ -15,7 +15,8 @@ public class Dungeon
     {
         for (int i = 0; i < totalRooms; i++)
         {
-            rooms.Add(new Room());
+            rooms.Add(new Room(i+1));
+            rooms[i].AddMonster(new Invader());
         }
     }
 

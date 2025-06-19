@@ -10,8 +10,16 @@ public class Monster
     public static Room currentRoom;
     public static bool isAlive;
 
-
-    
+    public Monster(MonsterType type, int level, int hp, int cp, int statScalerRoll, Room currentRoom)
+    {
+        Monster.type = type;
+        Monster.level = level;
+        Monster.hp = hp;
+        Monster.cp = cp;
+        Monster.statScalerRoll = statScalerRoll;
+        Monster.currentRoom = currentRoom;
+        isAlive = true;
+    }
     public virtual void CalculateCpFromLevel() { }
 
     public virtual void CalculateHpFromLevel() { }

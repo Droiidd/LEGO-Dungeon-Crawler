@@ -2,10 +2,15 @@
 
 public class Invader: Monster
 {
-
-    public Invader()
+    public Invader(MonsterType type, int level, int hp, int cp, int statScalerRoll, Room currentRoom): base(type,level,hp,cp,statScalerRoll,currentRoom)
     {
-        
+        Invader.type = type;
+        Invader.level = level;
+        Invader.hp = hp;
+        Invader.cp = cp;
+        Invader.statScalerRoll = statScalerRoll;
+        Invader.currentRoom = currentRoom;
+        Invader.isAlive = true;
     }
     
     public virtual void CalculateHpFromLevel()

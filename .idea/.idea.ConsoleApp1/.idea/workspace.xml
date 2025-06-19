@@ -8,13 +8,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e5fc206-4b40-490a-a5a7-c5b16c15c023" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Dungeon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Assets/Dungeon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Assets/Globals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/PlayerClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Enums/ClassType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Race.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Enums/Race.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Assets/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Assets/Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Entities/Invader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Invader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Entities/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Entities/Monster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Game.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerConsole/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/ConsoleApp1.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/ConsoleApp1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/bin/Debug/net8.0/CrawlerConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/CrawlerConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/ref/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/ref/CrawlerConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/refint/CrawlerConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerConsole/obj/Debug/net8.0/refint/CrawlerConsole.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +55,7 @@
     <setting file="file://$PROJECT_DIR$/CrawlerConsole/Assets/Race.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CrawlerConsole/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -102,14 +119,26 @@
       <workItem from="1750301980706" duration="240000" />
       <workItem from="1750302248154" duration="188000" />
       <workItem from="1750350846662" duration="6394000" />
-      <workItem from="1750357631133" duration="3044000" />
+      <workItem from="1750357631133" duration="5338000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -128,6 +157,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CrawlerConsole/Entities/Invader.cs</url>
+          <line>18</line>
+          <properties documentPath="D:\Dev\LEGO-Dungeon-Crawler\CrawlerConsole\Entities\Invader.cs" containingFunctionPresentation="Method 'CalculateHpFromLevel'">
+            <startOffsets>
+              <option value="573" />
+            </startOffsets>
+            <endOffsets>
+              <option value="604" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
