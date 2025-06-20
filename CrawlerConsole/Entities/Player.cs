@@ -4,6 +4,7 @@ public class Player
 {
     public int cp;
     public int hp;
+    public int maxHp;
     public int stealth;
     public int luck;
     public int charisma;
@@ -11,6 +12,7 @@ public class Player
     public Race race;
     public ClassType _classType;
     public string name;
+    public bool isAlive;
     private Room currentRoom;
     private static List<Player> players = new List<Player>();
 
@@ -18,6 +20,7 @@ public class Player
     {
         this.cp = cp;
         this.hp = hp;
+        this.maxHp = hp;
         this.stealth = stealth;
         this.luck = luck;
         this.charisma = charisma;
@@ -26,6 +29,7 @@ public class Player
         this.name = name;
         this.currentRoom = null;
         this.level = 1;
+        this.isAlive = true;
         players.Add(this);
     }
 
@@ -49,5 +53,12 @@ public class Player
     public void UpdateRoom(Room room)
     {
         this.currentRoom = room;
+    }
+
+    public void UpdateHp(int inc)
+    {
+        int extra = (hp + inc) - maxHp;
+        inc -= extra;
+        hp += inc;
     }
 }

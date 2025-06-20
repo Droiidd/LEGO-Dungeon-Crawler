@@ -22,10 +22,14 @@ public class AssetLoader
 
     public static Monster CreateNewMonster(MonsterType type, int statScaler, Room room)
     {
+        Monster monster = null;
         switch (type)
         {
             default: case MonsterType.Invader:
-                return new Invader(type,statScaler,room);
+                monster = new Invader(type,statScaler,room);
+                break;
         }
+
+        return monster;
     }
 }
