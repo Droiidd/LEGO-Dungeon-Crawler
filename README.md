@@ -1,5 +1,14 @@
 # LEGO Dungeon Crawler
 ## Complete Guide and Instructions 
+## Table of Contents
+- [INSTRUCTIONS](#instructions)
+- [GAMEPLAY](#gameplay)
+- [Guides](#guides)
+  - [Equipment / loot](#equipment--loot)
+  - [Monster Summoning](#monster-summoning)
+  - [Race / Class Guide](#race--class-guide)
+  - [Equipment Guide](#equipment-guide)
+  - [One Shot Items](#one-shot-items)
 ### Overview
 
 >DISCLAIMER!
@@ -38,6 +47,7 @@ This game is primarily driven by die rolling. This is the minimum set for one pl
 >- 1x D6 (normal sided die)
 
 ## INSTRUCTIONS
+[Back to ToC](#table-of-contents)
 ### Game Set-up
 LEGO Crawler Dungeons is a DnD lite board game, with a board composed of modular rooms that link together to create a maze-like grid. The Crawler is balanced for 3-5 people with a standard of 12 rooms per dungeon. It is optimally played with 4 players.  Playing with fewer players is for those who want a PvE challenge. Playing with more players adds more chaos, and more player interaction However games can be played with as many, or few players as you want.
 
@@ -122,6 +132,7 @@ Everyone should now have a figure, a stat sheet for their figure, and one dungeo
 
 
 ## GAMEPLAY
+[Back to ToC](#table-of-contents)
 #### Turn Phase
 A player may complete one main action per turn and as many light actions as they want. This can be done in any combination. Watchtower actions are a special type of light action. These can be performed only once a turn, but have no effect on your ability to perform an additional main action (Ex. A player can Light A Signal Fire and Explore a new room in the same turn).
 
@@ -153,6 +164,7 @@ A player may complete one main action per turn and as many light actions as they
     - Gamble/risk a piece of armor by placing it at the top of the tower. If a watchtower is lit, you cannot gild. This marks the two rooms adjacent to the tower as “Gilded”. Enter a gilded room to summon a Gilded Monster. Upon defeat, loot a random (style) Full Plate armor piece. Keep in mind that helmets upgrade to helmets, and chestplate to chestplates. If a player dies before gilding their gear, their armor and the monster remains for other players.
 
 ### Main Actions (1 Per Turn)
+[Back to ToC](#table-of-contents)
 - Rest
 	- Stay in the same position and for no cost heal 50% of your total health back.
 	    >Ex.) HP: 13/50, rest -> HP: 38/50
@@ -197,6 +209,7 @@ Afterwards, remove a wall piece in the boss room, or a wall piece in the closest
 If a player exits the dungeon they become a bannered player, level up, and are awarded the choice of either 1 additional inventory slot, or 1 permanent CP buff (+20CP) every 2 levels. Additionally, if you did any damage to the boss, you are given 7VPs. If you dealt the killing blow, you gain an additional 2VP.
 
 ###  Gild Hall Guide
+[Back to ToC](#table-of-contents)
 The Gild Hall acts as the central force of the dungeon world. Upon defeating strong foe, bosses, and even other players, they will award you with Victory points. VP is a currency that can be spent at both the Gild Hall Market and the Travelling Merchant.
 	
 The travelling merchant spawns during the creation of the dungeon, and can be used as a “safe tile”. No monster can be summoned here, and no combat can take place. You can choose to rest here, or trade with the travelling merchant.
@@ -283,6 +296,7 @@ If you roll a Level 1-3 item, roll a second time to determine the armor/weapon t
 | Large Shield | 20 |
 
 ## Monster Summoning
+[Back to ToC](#table-of-contents)
 To summon a normal monster, first roll D20 to determine type (listed below), followed by a second stat scaler roll that will determine the monsters level: roll 1-12 (lvl 1), roll 13-17 (lvl 2), roll 18-20 (lvl 3)
 
 To summon a Gilded Templar, simply roll for stat scaler to determine its level. There are no templar variants, and therefore there is no type roll.  Templars are stronger variants of Invaders, and will use the same base CP, with an additional 75HP to the base. Every 2 combat turns, if a templar is not killed, they will summon two remnants to defend them (Same HP / CP as horde members)
@@ -320,6 +334,7 @@ Bannered players summon normal monsters with additional buffs to scale to their 
 
 
 ## Race / Class Guide
+[Back to ToC](#table-of-contents)
 Race and class will determine your playstyle for The LDC. Classes are a way to fine tune your playstyle; do you like magic? Maybe you want to use a big sword? Keep things light with some knives? Your class will give buffs to certain weapons or armor. 
 
 Race impacts your playstyle by giving you powerful unique abilities. Unlike class, your race should closely resemble the minifig you create
@@ -372,6 +387,7 @@ Sinnick / Demon
 - +4 STL, -3 PRY
 
 ### Class Guide
+[Back to Top](#table-of-contents)
 ---
 Wizard
 - Starts With: Lvl 1 M Magic 
@@ -423,6 +439,7 @@ Berserker
 
 
 ## Equipment Guide
+[Back to ToC](#table-of-contents)
 To help understand what die to choose when attacking
 ### General Info
 - Shields are considered 1 handed. Only one helm and body armor
@@ -461,6 +478,7 @@ To help understand what die to choose when attacking
 
 
 ## One Shot Items
+[Back to ToC](#table-of-contents)
 One shot items are held in a player's inventory and can only be used one time. After use, they are returned to the “store” (The store is where all OSI’s are held, feel free to make this an external build to the dungeon. The store has a specific inventory listed below).
 ### Item Guide
 1. (Roll 1 - 4) Map - Teleport to a random room on the floor
