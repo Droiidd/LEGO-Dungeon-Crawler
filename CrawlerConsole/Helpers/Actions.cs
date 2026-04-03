@@ -92,7 +92,6 @@ public class Actions
         {
             //Monster death
             monster.isAlive = false;
-            monster.currentRoom.isVanquished = true;
             Console.WriteLine("Monster is vanquished!");
             //give loot
         }

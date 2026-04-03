@@ -1,13 +1,13 @@
 ﻿using ConsoleApp1.Assets;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1.Entities;
-public class Invader : Monster
+
+public class Beast : Monster
 {
     public MonsterType type { get; set; }
     public int level { get; set; }
@@ -15,8 +15,7 @@ public class Invader : Monster
     public int cp { get; set; }
     public bool isAlive { get; set; }
     public int lootRolls { get; set; }
-    public bool isBleedInflicted { get; set; }
-    public Invader(MonsterType type, int level)
+    public Beast(MonsterType type, int level)
     {
         this.type = type;
         this.level = level;
@@ -24,22 +23,21 @@ public class Invader : Monster
         SetLootRollsFromLevel(level);
         SetMaxCpFromLevel(level);
         SetMaxHpFromLevel(level);
-        this.isBleedInflicted = false;
     }
 
     public void SetMaxHpFromLevel(int level)
     {
         if (level == 1)
         {
-            hp = 45;
+            hp = 50;
         }
         if (level == 2)
         {
-            hp = 90;
+            hp = 105;
         }
-        if(level == 3)
+        if (level == 3)
         {
-            hp = 140;
+            hp = 155;
         }
     }
 
@@ -74,6 +72,7 @@ public class Invader : Monster
             lootRolls = 4;
         }
     }
+
     public int GetCurrentHp()
     {
         return hp;
@@ -86,9 +85,4 @@ public class Invader : Monster
     {
         return isAlive;
     }
-    public void CriticalHit()
-    {
-        isBleedInflicted = true;
-    }
-
 }

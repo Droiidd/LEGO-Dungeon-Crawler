@@ -1,13 +1,13 @@
 ﻿using ConsoleApp1.Assets;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1.Entities;
-public class Invader : Monster
+
+public class Apostle : Monster
 {
     public MonsterType type { get; set; }
     public int level { get; set; }
@@ -15,8 +15,7 @@ public class Invader : Monster
     public int cp { get; set; }
     public bool isAlive { get; set; }
     public int lootRolls { get; set; }
-    public bool isBleedInflicted { get; set; }
-    public Invader(MonsterType type, int level)
+    public Apostle(MonsterType type, int level)
     {
         this.type = type;
         this.level = level;
@@ -24,22 +23,21 @@ public class Invader : Monster
         SetLootRollsFromLevel(level);
         SetMaxCpFromLevel(level);
         SetMaxHpFromLevel(level);
-        this.isBleedInflicted = false;
     }
 
     public void SetMaxHpFromLevel(int level)
     {
         if (level == 1)
         {
-            hp = 45;
+            hp = 100;
         }
         if (level == 2)
         {
-            hp = 90;
+            hp = 170;
         }
-        if(level == 3)
+        if (level == 3)
         {
-            hp = 140;
+            hp = 200;
         }
     }
 
@@ -47,15 +45,15 @@ public class Invader : Monster
     {
         if (level == 1)
         {
-            cp = 32;
+            cp = 60;
         }
         if (level == 2)
         {
-            cp = 40;
+            cp = 80;
         }
         if (level == 3)
         {
-            cp = 60;
+            cp = 100;
         }
     }
 
@@ -63,17 +61,18 @@ public class Invader : Monster
     {
         if (level == 1)
         {
-            lootRolls = 2;
+            lootRolls = 4;
         }
         if (level == 2)
         {
-            lootRolls = 3;
+            lootRolls = 5;
         }
         if (level == 3)
         {
-            lootRolls = 4;
+            lootRolls = 6;
         }
     }
+
     public int GetCurrentHp()
     {
         return hp;
@@ -86,9 +85,4 @@ public class Invader : Monster
     {
         return isAlive;
     }
-    public void CriticalHit()
-    {
-        isBleedInflicted = true;
-    }
-
 }

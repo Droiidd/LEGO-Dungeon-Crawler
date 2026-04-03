@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp1.Assets;
+﻿using ConsoleApp1.Entities;
+
+namespace ConsoleApp1.Assets;
 
 public class AssetLoader
 {
@@ -26,7 +28,8 @@ public class AssetLoader
         switch (type)
         {
             default: case MonsterType.Invader:
-                monster = new Invader(type,statScaler,room);
+                monster = new Invader(type,statScaler);
+                room.AddMonster(monster);
                 break;
         }
 

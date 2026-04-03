@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp1.Assets;
+﻿using System.Runtime.InteropServices.Marshalling;
+
+namespace ConsoleApp1.Assets;
 
 public class Room
 {
@@ -7,12 +9,14 @@ public class Room
     public bool isVanquished;
     public Monster monster;
     private static List<Room> rooms = new List<Room>();
+    public Tuple<int,int> position;
 
-    public Room(int roomNumber)
+    public Room(int roomNumber, Tuple<int,int> position)
     {
         this.isUnlocked = false;
         this.isVanquished = false;
         this.roomNumber = roomNumber;
+        this.position = position;
         rooms.Add(this);
     }
 
@@ -20,7 +24,6 @@ public class Room
     {
         this.monster = monster;
     }
-
     public static Room GetRoom(int roomNumber)
     {
         for (int i = 0; i < rooms.Count; i++)

@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp1.Assets;
+﻿using ConsoleApp1.Helpers;
+
+namespace ConsoleApp1.Assets;
 
 public class Player
 {
@@ -15,6 +17,27 @@ public class Player
     public bool isAlive;
     private Room currentRoom;
     private static List<Player> players = new List<Player>();
+
+    public Player(string name, Race race, ClassType classType)
+    {
+        this.name = name;
+        this.race = race;
+        this._classType = classType;
+        this.hp = InitBaseHp(race);
+        this.cp = InitBaseCp(_classType);
+    }
+
+    public int InitBaseHp(Race race)
+    {
+        int def = 45;
+        int hp = RaceHelper.GetHpBonusFromRace(race);
+        return def + hp;
+    }
+
+    public int InitBaseCp(ClassType classType)
+    {
+       return ClassTypeHelper.GetStartingCpFromClass(classType);
+    }
 
     public Player(string name, int cp, int hp, int stealth, int luck, int charisma, Race race, ClassType classType)
     {

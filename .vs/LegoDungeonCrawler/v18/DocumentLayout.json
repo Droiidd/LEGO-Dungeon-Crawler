@@ -1,0 +1,349 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\LEGO-Dungeon-Crawler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\helpers\\classtypehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\helpers\\classtypehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\helpers\\racehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\helpers\\racehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\enums\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\enums\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\helpers\\menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\helpers\\menus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\assets\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\assets\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\assets\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\assets\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\helpers\\actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\helpers\\actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\enums\\monstertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\enums\\monstertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\enums\\classtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\enums\\classtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\assets\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\assets\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\helpers\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\helpers\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\entities\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\entities\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\entities\\apostle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\entities\\apostle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\helpers\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\helpers\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\assets\\assetloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\assets\\assetloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\entities\\rider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\entities\\rider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|d:\\dev\\lego-dungeon-crawler\\crawlerconsole\\entities\\horde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11402BD2-8EE9-4E43-91EF-A8E54D2B3827}|CrawlerConsole\\CrawlerConsole.csproj|solutionrelative:crawlerconsole\\entities\\horde.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Player.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Entities\\Player.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Player.cs",
+              "RelativeToolTip": "CrawlerConsole\\Entities\\Player.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:08:55.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Apostle.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Apostle.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Entities\\Apostle.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Apostle.cs",
+              "RelativeToolTip": "CrawlerConsole\\Entities\\Apostle.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:01:00.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menus.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\Menus.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Helpers\\Menus.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\Menus.cs",
+              "RelativeToolTip": "CrawlerConsole\\Helpers\\Menus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T18:47:08.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Game.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Game.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Game.cs",
+              "RelativeToolTip": "CrawlerConsole\\Game.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAEwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:19:15.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dungeon.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Assets\\Dungeon.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Assets\\Dungeon.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Assets\\Dungeon.cs",
+              "RelativeToolTip": "CrawlerConsole\\Assets\\Dungeon.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAawBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T01:44:12.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Actions.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\Actions.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Helpers\\Actions.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\Actions.cs",
+              "RelativeToolTip": "CrawlerConsole\\Helpers\\Actions.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAlwHAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:19:11.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Rider.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Rider.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Entities\\Rider.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Rider.cs",
+              "RelativeToolTip": "CrawlerConsole\\Entities\\Rider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T01:37:16.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Assets\\Room.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Assets\\Room.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Assets\\Room.cs",
+              "RelativeToolTip": "CrawlerConsole\\Assets\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:01:56.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AssetLoader.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Assets\\AssetLoader.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Assets\\AssetLoader.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Assets\\AssetLoader.cs",
+              "RelativeToolTip": "CrawlerConsole\\Assets\\AssetLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T02:02:42.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Horde.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Horde.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Entities\\Horde.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Horde.cs",
+              "RelativeToolTip": "CrawlerConsole\\Entities\\Horde.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T01:37:02.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Config.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\Config.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Helpers\\Config.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\Config.cs",
+              "RelativeToolTip": "CrawlerConsole\\Helpers\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:18:15.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassTypeHelper.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\ClassTypeHelper.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Helpers\\ClassTypeHelper.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\ClassTypeHelper.cs",
+              "RelativeToolTip": "CrawlerConsole\\Helpers\\ClassTypeHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:17:50.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Race.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Enums\\Race.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Enums\\Race.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Enums\\Race.cs",
+              "RelativeToolTip": "CrawlerConsole\\Enums\\Race.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:02:56.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RaceHelper.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\RaceHelper.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Helpers\\RaceHelper.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\RaceHelper.cs",
+              "RelativeToolTip": "CrawlerConsole\\Helpers\\RaceHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:13:22.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MonsterType.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Enums\\MonsterType.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Enums\\MonsterType.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Enums\\MonsterType.cs",
+              "RelativeToolTip": "CrawlerConsole\\Enums\\MonsterType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:02:55.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassType.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Enums\\ClassType.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Enums\\ClassType.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Enums\\ClassType.cs",
+              "RelativeToolTip": "CrawlerConsole\\Enums\\ClassType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T19:02:53.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Monster.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Entities\\Monster.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Entities\\Monster.cs",
+              "RelativeToolTip": "CrawlerConsole\\Entities\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:15:47.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Util.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\Util.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Helpers\\Util.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Helpers\\Util.cs",
+              "RelativeToolTip": "CrawlerConsole\\Helpers\\Util.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:18:28.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Assets\\Globals.cs",
+              "RelativeDocumentMoniker": "CrawlerConsole\\Assets\\Globals.cs",
+              "ToolTip": "D:\\Dev\\LEGO-Dungeon-Crawler\\CrawlerConsole\\Assets\\Globals.cs",
+              "RelativeToolTip": "CrawlerConsole\\Assets\\Globals.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAwJkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:18:38.277Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
